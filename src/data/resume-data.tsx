@@ -48,8 +48,8 @@ export const RESUME_DATA = {
     {
       company: "Consultant",
       badges: ["Freelance"],
+      link: "https://dorian-chevalerias.com/",
       title: "Python consultant",
-      logo: ParabolLogo,
       start: "2021",
       end: "now",
       description:
@@ -72,6 +72,7 @@ export const RESUME_DATA = {
       link: "https://wwws.airfrance.fr/",
       badges: ["internship"],
       title: "Cybersecurity Intern",
+      description: "",
       start: "June 2023",
       end: "August 2023",
     },
