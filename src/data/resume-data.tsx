@@ -14,7 +14,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://dorian-chevalerias.com/",
   contact: {
     email: "dorian.chevalerias@gmail.com",
-    tel: "+33 6 51 82 32 82",
+    tel: "",
     social: [
       {
         name: "GitHub",
