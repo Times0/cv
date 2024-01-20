@@ -10,7 +10,7 @@ export const RESUME_DATA = {
     "I am a a 20 years old passionate freelancer and 4th year student in Telecom Strasboug, studying computer science specializing in data science and machine learning.",
   summary:
     "As a Freelancer and a Computer Science student, I have been carefully managing multiple projects for clients all around the world, for school and personal projects. I am dedicated to always making qualitative work and I am always looking for new challenges to improve my skills and knowledge. I am also looking for a 3-4 months internship in the field of data science, machine learning or software engineering where I can apply my skills and learn new ones.",
-  // avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "",
   personalWebsiteUrl: "https://dorian-chevalerias.com/",
   contact: {
     email: "dorian.chevalerias@gmail.com",
