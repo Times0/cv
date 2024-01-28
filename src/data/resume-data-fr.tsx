@@ -7,13 +7,14 @@ export const RESUME_DATA = {
   location: "Strasbourg, France",
   locationLink: "https://www.google.com/maps/place/Strasbourg/",
   about:
-    "I am a a 20 years old passionate freelancer and 4th year student in Telecom Strasboug, studying computer science specializing in data science and machine learning.",
+    "Je suis un freelance passionné de 20 ans et étudiant en 4ème année à Telecom Strasboug, étudiant en informatique spécialisé dans la science des données et l'apprentissage automatique.",
   summary:
-    "As a Freelancer and a Computer Science student, I have been carefully managing multiple projects for clients all around the world, for school and personal projects. I am dedicated to always making qualitative work and I am always looking for new challenges to improve my skills and knowledge. I am also looking for a 3-4 months internship in the field of data science, machine learning or software engineering where I can apply my skills and learn new ones.",
-  // avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+    "En tant que freelance et étudiant en informatique, j'ai géré avec soin de nombreux projets pour des clients du monde entier, pour des projets scolaires et personnels. Je m'engage à toujours faire un travail de qualité en prêtant attention aux détails et à relever de nouveaux défis pour améliorer mes compétences et mes connaissances. Je suis actuellement à la recherche d'un stage de 3-4 mois dans le domaine de la science des données, de l'apprentissage automatique, de l'ingénierie des données ou de l'ingénierie logicielle à partir de juin 2024 :).",
+  avatarUrl: "",
   personalWebsiteUrl: "https://dorian-chevalerias.com/",
   contact: {
     email: "dorian.chevalerias@gmail.com",
+    tel: "",
     social: [
       {
         name: "GitHub",
@@ -29,16 +30,16 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Telecom Strasbourg",
+      school: "Télécom Strasbourg",
       degree:
-        "Engineering Degree + Master's Degree in Computer Science specialized in Data Science and artificial intelligence",
+        "Diplôme d'ingénieur + Master en informatique spécialisé en science des données et intelligence artificielle",
       start: "2022",
       end: "2025",
     },
     {
       school: "Lycée Faidherbe",
       degree:
-        "Preparatory classes for the competitive entrance exams to the French Grandes Écoles",
+        "Classes préparatoires aux concours d'entrée aux Grandes Écoles françaises",
       start: "2021",
       end: "2022",
     },
@@ -47,12 +48,12 @@ export const RESUME_DATA = {
     {
       company: "Consultant",
       badges: ["Freelance"],
-      title: "Python consultant",
-      logo: ParabolLogo,
+      link: "https://dorian-chevalerias.com/",
+      title: "Consultant Python",
       start: "2021",
-      end: "now",
+      end: "à présent",
       description:
-        "Helped companies and people solve their issues using Python. I started with game creations with Pygame then moved to Desktop app creation with PyQT. I did many automation projects including webscraping ones in Selenium and BeautifulSoup. I now focus on data science and machine learning projects using Pandas, NumPy, Scikit-learn, TensorFlow and PyTorch.",
+        "J'ai aidé des entreprises et des personnes à résoudre leurs problèmes en utilisant Python. J'ai commencé par créer des jeux avec Pygame, puis je suis passé à la création d'applications de bureau avec PyQT. J'ai réalisé de nombreux projets d'automatisation, y compris des projets d'analyse de sites web avec Selenium et BeautifulSoup. Je me concentre maintenant sur la science des données et les projets d'apprentissage automatique en utilisant Pandas, NumPy, Scikit-learn, TensorFlow et PyTorch.",
     },
 
     {
@@ -60,26 +61,27 @@ export const RESUME_DATA = {
       link: "https://www.cilcare.com/",
       badges: ["Junior-Entreprise"],
       title: "Intervenant",
-      start: "September 2023",
-      end: "January 2024",
+      start: "septembre 2023",
+      end: "janvier 2024",
       description:
-        "Created a Desktop app to help the 20 team memebers organize their tasks, projects and days off.",
+        "Création d'une application de bureau pour aider les 20 membres de l'équipe à organiser leurs tâches, leurs projets et leurs jours de congé.",
     },
 
     {
       company: "AirFrance-KLM",
       link: "https://wwws.airfrance.fr/",
-      badges: ["internship"],
-      title: "Cybersecurity Intern",
-      start: "June 2023",
-      end: "August 2023",
+      badges: ["stage"],
+      title: "Stagiaire en cybersécurité",
+      description: "",
+      start: "juin 2023",
+      end: "août 2023",
     },
   ],
 
   languages: [
-    "French: Native language",
-    "English: C1 (TOEIC: 970/990)",
-    "Russian: A2",
+    "Français : Langue maternelle",
+    "Anglais : C1 (TOEIC : 970/990)",
+    "Russe",
   ],
 
   skills: [
@@ -96,16 +98,16 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "AnkiStreak",
-      techStack: ["Add-on", "Python", "Pygame"],
+      techStack: ["Module complémentaire", "Python", "Pygame"],
       description:
-        "An anki add-on to motivate you to study everyday by gamifying your anki experience",
+        "Un addon anki qui motive les utilisateurs à apprendre tous les jours en gamifiant leur expérience anki.",
     },
     {
       title: "PygameUIKit",
       techStack: ["Python", "Pygame"],
-      description: "A UI kit for Pygame to help you create beautiful UIs fast",
+      description:
+        "Un kit d'interface utilisateur pour Pygame afin d'aider les gens à créer rapidement de belles interfaces utilisateur.",
       link: {
-        label: "monito.dev",
         href: "https://github.com/Times0/PygameUIKit",
       },
     },
@@ -113,7 +115,7 @@ export const RESUME_DATA = {
       title: "MultiChess",
       techStack: ["C++", "Python", "Pygame", "Sockets"],
       description:
-        "The chess game but you can play with friends online or against a computer",
+        "Le jeu d'échecs mais vous pouvez jouer avec des amis en ligne ou contre un ordinateur",
       link: {
         label: "github.com",
         href: "https://github.com/Times0/MultiChess",
@@ -123,13 +125,13 @@ export const RESUME_DATA = {
       title: "Futuristic City Simulation",
       techStack: ["Python", "SeaBorn", "Pygame"],
       description:
-        "Simulation of a complex futuristic city with autonomous cars, drones, robots and more. The goal is to infer the best city design to maximize the city's efficiency and the citizens' happiness",
+        "Simulation d'une ville futuriste complexe avec des voitures autonomes, des drones, des robots, etc. L'objectif est d'inférer la meilleure conception de la ville pour maximiser son efficacité et le bonheur des citoyens",
     },
     {
       title: "Cilpink",
       techStack: ["Python", "PyQt", "MySQL"],
       description:
-        "A desktop app to help the 20 team memebers of Cilcare organize their tasks, projects and days off",
+        "Une application de bureau pour aider les 20 membres de l'équipe de Cilcare à organiser leurs tâches, projets et congés",
     },
   ],
 } as const;

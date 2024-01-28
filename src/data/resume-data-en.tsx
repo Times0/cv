@@ -100,14 +100,14 @@ export const RESUME_DATA = {
       title: "AnkiStreak",
       techStack: ["Add-on", "Python", "Pygame"],
       description:
-        "An anki add-on to motivate you to study everyday by gamifying your anki experience",
+        "An anki add-on that motivates users to learn every day by gamifying their anki experience",
     },
     {
       title: "PygameUIKit",
       techStack: ["Python", "Pygame"],
-      description: "A UI kit for Pygame to help you create beautiful UIs fast",
+      description:
+        "A UI kit for Pygame to help people create beautiful UIs fast",
       link: {
-        label: "monito.dev",
         href: "https://github.com/Times0/PygameUIKit",
       },
     },
