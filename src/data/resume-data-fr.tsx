@@ -115,7 +115,7 @@ export const RESUME_DATA = {
       title: "MultiChess",
       techStack: ["C++", "Python", "Pygame", "Sockets"],
       description:
-        "Le jeu d'échecs mais vous pouvez jouer avec des amis en ligne ou contre un ordinateur",
+        "Un jeu d'échecs classique où on peut jouer en réseau ou contre une IA basée sur un réseau de neurones. Ou sur un minmax avec élagage alpha-bêta.",
       link: {
         label: "github.com",
         href: "https://github.com/Times0/MultiChess",

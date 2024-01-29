@@ -115,7 +115,7 @@ export const RESUME_DATA = {
       title: "MultiChess",
       techStack: ["C++", "Python", "Pygame", "Sockets"],
       description:
-        "The chess game but you can play with friends online or against a computer",
+        "A classic chess game where you can play in a network or against an AI based on a neural network. Or on a minmax with alpha-beta pruning.",
       link: {
         label: "github.com",
         href: "https://github.com/Times0/MultiChess",
