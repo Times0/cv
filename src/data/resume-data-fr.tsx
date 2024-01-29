@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   location: "Strasbourg, France",
   locationLink: "https://www.google.com/maps/place/Strasbourg/",
   about:
-    "Je suis un freelance passionné de 20 ans et étudiant en 4ème année à Telecom Strasboug, étudiant en informatique spécialisé dans la science des données et l'apprentissage automatique.",
+    "Je suis un freelance passionné de 20 ans et étudiant en deuxième année du cycle ingénieur à Telecom Strasboug, étudiant en informatique spécialisé dans la science des données et l'apprentissage automatique.",
   summary:
     "En tant que freelance et étudiant en informatique, j'ai géré avec soin de nombreux projets pour des clients du monde entier, pour des projets scolaires et personnels. Je m'engage à toujours faire un travail de qualité en prêtant attention aux détails et à relever de nouveaux défis pour améliorer mes compétences et mes connaissances. Je suis actuellement à la recherche d'un stage de 3-4 mois dans le domaine de la science des données, de l'apprentissage automatique, de l'ingénierie des données ou de l'ingénierie logicielle à partir de juin 2024 :).",
   avatarUrl: "",
@@ -39,7 +39,7 @@ export const RESUME_DATA = {
     {
       school: "Lycée Faidherbe",
       degree:
-        "Classes préparatoires aux concours d'entrée aux Grandes Écoles françaises",
+        "Classes préparatoires aux concours d'entrée aux Grandes Écoles françaises, MP option ",
       start: "2021",
       end: "2022",
     },
@@ -53,7 +53,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "à présent",
       description:
-        "J'ai aidé des entreprises et des personnes à résoudre leurs problèmes en utilisant Python. J'ai commencé par créer des jeux avec Pygame, puis je suis passé à la création d'applications de bureau avec PyQT. J'ai réalisé de nombreux projets d'automatisation, y compris des projets d'analyse de sites web avec Selenium et BeautifulSoup. Je me concentre maintenant sur la science des données et les projets d'apprentissage automatique en utilisant Pandas, NumPy, Scikit-learn, TensorFlow et PyTorch.",
+        "J'ai aidé des entreprises et des personnes à résoudre leurs problèmes en utilisant Python. Mon parcours a commencé avec de la création de jeux avec Pygame, puis je suis passé à la création d'applications de bureau avec PyQT. J'ai aussi réalisé de nombreux projets d'automatisation, dont du scraping. Je me concentre maintenant sur les projets d'apprentissage automatique, deeplearing, reinforcement learning, evolutionnary programming en utilisant Pandas, NumPy, Neat, Scikit-learn, TensorFlow et PyTorch.",
     },
 
     {
@@ -81,6 +81,7 @@ export const RESUME_DATA = {
   languages: [
     "Français : Langue maternelle",
     "Anglais : C1 (TOEIC : 970/990)",
+    "Allemand : B2",
     "Russe",
   ],
 

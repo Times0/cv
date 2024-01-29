@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   location: "Strasbourg, France",
   locationLink: "https://www.google.com/maps/place/Strasbourg/",
   about:
-    "I am a a 20 years old passionate freelancer and 4th year student in Telecom Strasboug, studying computer science specializing in data science and machine learning.",
+    "I am a a 20 years old passionate freelancer and 2nd year student in Telecom Strasboug, studying computer science specializing in data science and machine learning.",
   summary:
     "As a Freelancer and a Computer Science student, I have been carefully managing multiple projects for clients all around the world, for school and personal projects. I am dedicated to always making qualitative work with attention to details and for new challenges to improve my skills and knowledge. I am currently looking for a 3-4 months internship in the field of data science, machine learning, data engineering or software engineering starting in June 2024 :)",
   avatarUrl: "",
