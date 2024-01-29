@@ -17,10 +17,10 @@ export default function Page() {
   const [language, setLanguage] = useState<Language>("fr");
   useEffect(() => {
     const lang = new URL(window.location.href).searchParams.get("lang");
-    setLanguage(lang === "fr" ? "fr" : "en");
+    setLanguage(lang === "en" ? "en" : "fr");
   }, []);
 
-  let resumeData = language === "en" ? RESUME_DATA_EN : RESUME_DATA_FR;
+  let resumeData = language === "fr" ? RESUME_DATA_FR : RESUME_DATA_EN;
   const switchLanguageTo = (lang: Language) => {
     setLanguage(lang);
     const url = new URL(window.location.href);

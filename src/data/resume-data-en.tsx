@@ -81,6 +81,7 @@ export const RESUME_DATA = {
   languages: [
     "French: Native language",
     "English: C1 (TOEIC: 970/990)",
+    "Deutsch: A2",
     "Russian",
   ],
 
