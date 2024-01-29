@@ -7,33 +7,44 @@ import { Section } from "@/components/ui/section";
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ProjectCard } from "@/components/project-card";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { RESUME_DATA as RESUME_DATA_EN } from "../data/resume-data-en";
 import { RESUME_DATA as RESUME_DATA_FR } from "../data/resume-data-fr";
 
-type Language = "EN" | "FR";
+type Language = "en" | "fr";
 
 export default function Page() {
-  const [language, setLanguage] = useState("FR");
-  let resumeData = language === "EN" ? RESUME_DATA_EN : RESUME_DATA_FR;
+  const [language, setLanguage] = useState<Language>("fr");
+  useEffect(() => {
+    const lang = new URL(window.location.href).searchParams.get("lang");
+    setLanguage(lang === "fr" ? "fr" : "en");
+  }, []);
 
+  let resumeData = language === "en" ? RESUME_DATA_EN : RESUME_DATA_FR;
   const switchLanguageTo = (lang: Language) => {
     setLanguage(lang);
+    const url = new URL(window.location.href);
+    url.searchParams.set("lang", lang);
+    window.history.replaceState(null, "", url.toString());
   };
   return (
     <div>
       <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
         <div className="absolute right-0 top-0 flex gap-x-2 p-2">
           <button
-            onClick={() => switchLanguageTo("FR")}
-            className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-200 hover:bg-gray-300"
+            onClick={() => switchLanguageTo("fr")}
+            className={`flex h-8 w-8 items-center justify-center rounded-full bg-gray-200 hover:bg-gray-300 ${
+              language === "fr" ? "print:inline" : "print:hidden"
+            }`}
           >
             <img src="assets/icons8-france-96.png" alt="French" />
           </button>
 
           <button
-            onClick={() => switchLanguageTo("EN")}
-            className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-200 hover:bg-gray-300"
+            onClick={() => switchLanguageTo("en")}
+            className={`flex h-8 w-8 items-center justify-center rounded-full bg-gray-200 hover:bg-gray-300 ${
+              language === "en" ? "print:inline" : "print:hidden"
+            }`}
           >
             <img src="assets/icons8-great-britain-96.png" alt="English" />
           </button>
