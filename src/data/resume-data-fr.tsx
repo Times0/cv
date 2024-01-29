@@ -53,7 +53,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "à présent",
       description:
-        "J'ai aidé des entreprises et des personnes à résoudre leurs problèmes en utilisant Python. Mon parcours a commencé avec de la création de jeux avec Pygame, puis je suis passé à la création d'applications de bureau avec PyQT. J'ai aussi réalisé de nombreux projets d'automatisation, dont du scraping. Je me concentre maintenant sur les projets d'apprentissage automatique, deeplearing, reinforcement learning, evolutionnary programming en utilisant Pandas, NumPy, Neat, Scikit-learn, TensorFlow et PyTorch.",
+        "Aide apportée à diverses entreprises et individus pour résoudre leurs problèmes à l'aide de Python, par la création de jeux via Pygame, évoluant vers le développement d'applications de bureau avec PyQT. Réalisation de multiples projets d'automatisation, y compris du scraping. Projets dans les domaines de l'apprentissage automatique, du deep learning, du reinforcement learning (outils : Pandas, NumPy, Neat, Scikit-learn, TensorFlow et PyTorch).",
     },
 
     {
@@ -101,7 +101,7 @@ export const RESUME_DATA = {
       title: "AnkiStreak",
       techStack: ["Module complémentaire", "Python", "Pygame"],
       description:
-        "Un addon anki qui motive les utilisateurs à apprendre tous les jours en gamifiant leur expérience anki.",
+        "Un addon pour le logictiel Anki qui motive les utilisateurs à apprendre tous les jours en gamifiant leur expérience d'apprentissage.",
     },
     {
       title: "PygameUIKit",
@@ -116,7 +116,7 @@ export const RESUME_DATA = {
       title: "MultiChess",
       techStack: ["C++", "Python", "Pygame", "Sockets"],
       description:
-        "Un jeu d'échecs classique où on peut jouer en réseau ou contre une IA basée sur un réseau de neurones. Ou sur un minmax avec élagage alpha-bêta.",
+        "Un jeu d'échecs classique où on peut jouer en réseau ou contre une IA basée sur un réseau de neurones ou sur un minmax avec élagage alpha-bêta.",
       link: {
         label: "github.com",
         href: "https://github.com/Times0/MultiChess",
@@ -132,7 +132,7 @@ export const RESUME_DATA = {
       title: "Cilpink",
       techStack: ["Python", "PyQt", "MySQL"],
       description:
-        "Une application de bureau pour aider les 20 membres de l'équipe de Cilcare à organiser leurs tâches, projets et congés",
+        "Une application de bureau pour aider les 20 membres de l'équipe de Cilcare à organiser leurs tâches, projets et congés. Mise en place d'un serveur MySQL.",
     },
   ],
 } as const;
