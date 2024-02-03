@@ -39,7 +39,7 @@ export const RESUME_DATA = {
     {
       school: "Lycée Faidherbe",
       degree:
-        "Classes préparatoires aux concours d'entrée aux Grandes Écoles françaises, MP option ",
+        "Classes préparatoires aux concours d'entrée aux Grandes Écoles françaises, MP option informatique",
       start: "2021",
       end: "2022",
     },
