@@ -54,6 +54,11 @@ export const RESUME_DATA = {
       end: "à présent",
       description:
         "Aide apportée à diverses entreprises et individus pour résoudre leurs problèmes à l'aide de Python, par la création de jeux via Pygame, évoluant vers le développement d'applications de bureau avec PyQT. Réalisation de multiples projets d'automatisation, y compris du scraping. Projets dans les domaines de l'apprentissage automatique, du deep learning, du reinforcement learning (outils : Pandas, NumPy, Neat, Scikit-learn, TensorFlow et PyTorch).",
+      keypoints: [
+        "Plus de 50 projets réalisés pour des clients du monde entier.",
+        "Des clients satisfaits : aucun avis en dessous de 5 étoiles sur Fiverr et Upwork.",
+        "Des projets réalisés dans des domaines variés : sites, jeux, applications de bureau, automatisation, intelligence artificielle.",
+      ],
     },
 
     {
@@ -65,6 +70,13 @@ export const RESUME_DATA = {
       end: "janvier 2024",
       description:
         "Création d'une application de bureau pour aider les 20 membres de l'équipe à organiser leurs tâches, leurs projets et leurs jours de congé.",
+      keypoints: [
+        "Discussion avec l'équipe de Cilcare pour comprendre leurs besoins.",
+        "Développement de l'application avec PyQt, mise en place d'un serveur MySQL.",
+        "Echanges régulier avec l'équipe pour ajuster les fonctionnalités au fur et à mesure de l'avancement du projet.",
+        "A aidé l'équipe à être plus organisée et efficace.",
+        "L'application est toujours utilisée aujourd'hui.",
+      ],
     },
 
     {
@@ -74,7 +86,13 @@ export const RESUME_DATA = {
       title: "Stagiaire en cybersécurité",
       description: "",
       start: "juin 2023",
-      end: "août 2023",
+      end: "juillet 2023",
+      keypoints: [
+        "Création d'un outil qui automatise la récupération des données interressantes en rapport avec la sécurité informatique et création d'un Dashboard PowerBI pour les visualiser.",
+        "Rédaction de rapports de sécurité.",
+        "Analyse des nouvelles normes de sécurité. (Norme UIT-T X.1060)",
+        "Participation à des réunions avec les équipes de développement.",
+      ],
     },
   ],
 

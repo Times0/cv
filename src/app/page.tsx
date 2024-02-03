@@ -167,7 +167,11 @@ export default function Page() {
                     </h4>
                   </CardHeader>
                   <CardContent className="mt-2 text-xs">
-                    {work.description}
+                    {work.keypoints.map((keypoint) => (
+                      <p key={keypoint} className="mb-1">
+                        - {keypoint}
+                      </p>
+                    ))}
                   </CardContent>
                 </Card>
               );

@@ -1,4 +1,3 @@
-import { ParabolLogo } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -54,6 +53,11 @@ export const RESUME_DATA = {
       end: "now",
       description:
         "Helped companies and people solve their issues using Python. I started with game creations with Pygame then moved to Desktop app creation with PyQT. I did many automation projects including webscraping ones in Selenium and BeautifulSoup. I now focus on data science and machine learning projects using Pandas, NumPy, Scikit-learn, TensorFlow and PyTorch.",
+      keypoints: [
+        "More than 50 projects done for clients all around the world.",
+        "Satisfied clients: no review under 5 stars on Fiverr and Upwork.",
+        "Projects done in various fields: websites, games, desktop apps, automation, AI.",
+      ],
     },
 
     {
@@ -65,6 +69,13 @@ export const RESUME_DATA = {
       end: "January 2024",
       description:
         "Created a Desktop app to help the 20 team memebers organize their tasks, projects and days off.",
+      keypoints: [
+        "Discussion with the Cilcare team to understand their needs.",
+        "Development of the application using PyQt, setting up a MySQL server.",
+        "Regular exchanges with the team to adjust the features as the project progresses.",
+        "Helped the team to be more organized and efficient.",
+        "The application is still in use today.",
+      ],
     },
 
     {
@@ -74,7 +85,13 @@ export const RESUME_DATA = {
       title: "Cybersecurity Intern",
       description: "",
       start: "June 2023",
-      end: "August 2023",
+      end: "July 2023",
+      keypoints: [
+        "Creation of a tool that automates the retrieval of relevant data related to information system security and creation of a PowerBI Dashboard to visualize them.",
+        "Writing security reports.",
+        "Analysis of new security standards. (ITU-T X.1060 standard)",
+        "Participation in meetings with development teams.",
+      ],
     },
   ],
 
