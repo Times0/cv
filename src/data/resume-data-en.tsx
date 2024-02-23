@@ -38,7 +38,7 @@ export const RESUME_DATA = {
     {
       school: "Lycée Faidherbe",
       degree:
-        "Preparatory classes for the competitive entrance exams to the French Grandes Écoles",
+        "Preparatory classes for the competitive entrance exams to the French Grandes Écoles. Specialization in math and computer science.",
       start: "2021",
       end: "2022",
     },
