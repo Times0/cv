@@ -88,10 +88,9 @@ export const RESUME_DATA = {
       start: "juin 2023",
       end: "juillet 2023",
       keypoints: [
-        "Création d'un outil qui automatise la récupération des données interressantes en rapport avec la sécurité informatique et création d'un Dashboard PowerBI pour les visualiser.",
+        "Création d'un outil pour automatiser la récupération des données interressantes en rapport avec la sécurité informatique de l'entreprise et création d'un Dashboard PowerBI pour les visualiser.",
         "Rédaction de rapports de sécurité.",
-        "Analyse des nouvelles normes de sécurité. (Norme UIT-T X.1060)",
-        "Participation à des réunions avec les équipes de développement.",
+        "Analyse d'une nouvelle norme de sécurité (Norme UIT-T X.1060) et rédaction d'un rapport actionnable pour les équipes en charge de la stratégie.",
       ],
     },
   ],
@@ -105,21 +104,21 @@ export const RESUME_DATA = {
 
   skills: [
     "Python",
-    "Pandas",
-    "NumPy",
-    "Scikit-learn",
-    "TensorFlow",
-    "PyTorch",
-    "R",
-    "SQL",
     "C/C++",
+    "Git",
+    "SQL",
+    "TypeScript",
+    "Pandas",
+    "R",
+    "Scikit-learn",
+    "PyTorch",
   ],
   projects: [
     {
       title: "AnkiStreak",
-      techStack: ["Module complémentaire", "Python", "Pygame"],
+      techStack: ["Addon", "Pygame"],
       description:
-        "Un addon pour le logictiel Anki qui motive les utilisateurs à apprendre tous les jours en gamifiant leur expérience d'apprentissage.",
+        "Un addon pour le logictiel Anki qui motive les utilisateurs à apprendre tous les jours en gamifiant leur expérience.",
     },
     {
       title: "PygameUIKit",
@@ -142,15 +141,15 @@ export const RESUME_DATA = {
     },
     {
       title: "Futuristic City Simulation",
-      techStack: ["Python", "SeaBorn", "Pygame"],
+      techStack: ["Python", "SeaBorn", "Pygame", "Data"],
       description:
-        "Simulation d'une ville futuriste complexe avec des voitures autonomes, des drones, des robots, etc. L'objectif est d'inférer la meilleure conception de la ville pour maximiser son efficacité et le bonheur des citoyens",
+        "Mise en place de la simulation d'une ville futuriste complexe avec des voitures autonomes, des drones, des robots, etc. Génération de données tous les jours dans le but d'inférer la forme optimale de la ville",
     },
     {
       title: "Cilpink",
-      techStack: ["Python", "PyQt", "MySQL"],
+      techStack: ["PyQt", "MySQL"],
       description:
-        "Une application de bureau pour aider les 20 membres de l'équipe de Cilcare à organiser leurs tâches, projets et congés. Mise en place d'un serveur MySQL.",
+        "Une application de bureau pour aider les 20 membres de l'équipe de Cilcare à organiser leurs tâches, projets et congés. Développerment de tout le logiciel et mise en place d'un serveur MySQL sur Google Cloud PLatform.",
     },
   ],
 } as const;

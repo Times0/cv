@@ -104,19 +104,19 @@ export const RESUME_DATA = {
 
   skills: [
     "Python",
-    "Pandas",
-    "NumPy",
-    "Scikit-learn",
-    "TensorFlow",
-    "PyTorch",
-    "R",
-    "SQL",
     "C/C++",
+    "Git",
+    "SQL",
+    "TypeScript",
+    "Pandas",
+    "R",
+    "Scikit-learn",
+    "PyTorch",
   ],
   projects: [
     {
       title: "AnkiStreak",
-      techStack: ["Add-on", "Python", "Pygame"],
+      techStack: ["Add-on", "Pygame"],
       description:
         "An anki add-on that motivates users to learn every day by gamifying their anki experience",
     },
