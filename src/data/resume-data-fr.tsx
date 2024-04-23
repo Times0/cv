@@ -7,9 +7,9 @@ export const RESUME_DATA = {
   location: "Strasbourg, France",
   locationLink: "https://www.google.com/maps/place/Strasbourg/",
   about:
-    "Je suis un freelance passionné de 20 ans et étudiant en deuxième année du cycle ingénieur à Telecom Strasboug, étudiant en informatique spécialisé dans la science des données et l'apprentissage automatique.",
+    "Je suis un freelance de 20 ans et étudiant en deuxième année du cycle ingénieur à Telecom Strasboug, j'étudie l'informatique et je me suis spécialisé récemment en sciences des données et en intelligence artificielles.",
   summary:
-    "En tant que freelance et étudiant en informatique, j'ai géré avec soin de nombreux projets pour des clients du monde entier, pour des projets scolaires et personnels. Je m'engage à toujours faire un travail de qualité en prêtant attention aux détails et à relever de nouveaux défis pour améliorer mes compétences et mes connaissances. Je suis actuellement à la recherche d'un stage de 3-4 mois dans le domaine de la science des données, de l'apprentissage automatique, de l'ingénierie des données ou de l'ingénierie logicielle à partir de juin 2024 :).",
+    "En tant que freelance et étudiant en informatique, j'ai géré de nombreux projets pour des clients, pour mon cursus et pour moi même. Je porte une attention particulière à toujours rendre du travail le meilleur possible. Je suis actuellement à la recherche d'un stage de 3-4 mois dans le domaine de la science des données, l'apprentissage automatique, la vision par ordinateur, l'ingénierie des données ou l'ingénierie logicielle à partir de juin 2024 :).",
   avatarUrl: "",
   personalWebsiteUrl: "https://dorian-chevalerias.com/",
   contact: {
@@ -49,11 +49,11 @@ export const RESUME_DATA = {
       company: "Consultant",
       badges: ["Freelance"],
       link: "https://dorian-chevalerias.com/",
-      title: "Consultant Python",
+      title: "Freelance",
       start: "2021",
       end: "à présent",
       description:
-        "Aide apportée à diverses entreprises et individus pour résoudre leurs problèmes à l'aide de Python, par la création de jeux via Pygame, évoluant vers le développement d'applications de bureau avec PyQT. Réalisation de multiples projets d'automatisation, y compris du scraping. Projets dans les domaines de l'apprentissage automatique, du deep learning, du reinforcement learning (outils : Pandas, NumPy, Neat, Scikit-learn, TensorFlow et PyTorch).",
+        "Aide apportée à des entreprises et individus pour résoudre leurs problèmes en Python, création de jeux vidéos, développement d'applications de bureau avec PyQT. Réalisation de multiples projets d'automatisation, de webscraping. Projets dans les domaines de l'apprentissage automatique, du deep learning, du reinforcement learning (outils : PyTorch, Pandas, NumPy, Neat, Scikit-learn, TensorFlow).",
       keypoints: [
         "Plus de 50 projets réalisés pour des clients du monde entier.",
         "Des clients satisfaits : aucun avis en dessous de 5 étoiles sur Fiverr et Upwork.",
@@ -69,7 +69,7 @@ export const RESUME_DATA = {
       start: "septembre 2023",
       end: "janvier 2024",
       description:
-        "Création d'une application de bureau pour aider les 20 membres de l'équipe à organiser leurs tâches, leurs projets et leurs jours de congé.",
+        "Création d'une application de bureau pour aider les 30 membres de l'équipe à organiser leurs tâches, leurs projets et leurs jours de congé.",
       keypoints: [
         "Discussion avec l'équipe de Cilcare pour comprendre leurs besoins.",
         "Développement de l'application avec PyQt, mise en place d'un serveur MySQL.",
