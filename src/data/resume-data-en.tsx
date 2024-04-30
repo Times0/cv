@@ -1,4 +1,3 @@
-import { ParabolLogo } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Dorian Chevalérias",
