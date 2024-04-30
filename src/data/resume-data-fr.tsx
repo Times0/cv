@@ -7,9 +7,9 @@ export const RESUME_DATA = {
   location: "Strasbourg, France",
   locationLink: "https://www.google.com/maps/place/Strasbourg/",
   about:
-    "Je suis un freelance passionné de 20 ans et étudiant en deuxième année du cycle ingénieur à Telecom Strasboug, étudiant en informatique spécialisé dans la science des données et l'apprentissage automatique.",
+    "Passionné d'informatique, je suis un freelance de 20 ans actuellement en deuxième année du cycle ingénieur à Telecom Strasbourg, me spécialisant dans la science des données et l'apprentissage automatique. Mon parcours académique solide et mes expériences professionnelles me permettent d'apporter une perspective unique et des compétences techniques pointues à chaque projet.",
   summary:
-    "En tant que freelance et étudiant en informatique, j'ai géré avec soin de nombreux projets pour des clients du monde entier, pour des projets scolaires et personnels. Je m'engage à toujours faire un travail de qualité en prêtant attention aux détails et à relever de nouveaux défis pour améliorer mes compétences et mes connaissances. Je suis actuellement à la recherche d'un stage de 3-4 mois dans le domaine de la science des données, de l'apprentissage automatique, de l'ingénierie des données ou de l'ingénierie logicielle à partir de juin 2024 :).",
+    "Fort de mes expériences en tant que freelance et étudiant en informatique, j'ai géré avec succès de nombreux projets complexes pour des clients de plusieurs pays, ainsi que dans le cadre de mes études et de mes initiatives personnelles. Mon engagement envers l'excellence et mon souci du détail me permettent de livrer constamment des résultats de haute qualité. Passionné par l'innovation et l'apprentissage continu, je recherche activement de nouveaux défis pour perfectionner mes compétences et élargir mes connaissances. Actuellement, je suis à la recherche d'un stage stimulant de 3 à 4 mois dans les domaines de la science des données, de l'apprentissage automatique, de l'ingénierie des données ou de l'ingénierie logicielle, à partir de juin 2024. Je suis convaincu que mon expertise technique, ma créativité et ma détermination seront des atouts précieux pour votre entreprise.",
   avatarUrl: "",
   personalWebsiteUrl: "https://dorian-chevalerias.com/",
   contact: {
@@ -118,13 +118,13 @@ export const RESUME_DATA = {
       title: "AnkiStreak",
       techStack: ["Addon", "Pygame"],
       description:
-        "Un addon pour le logictiel Anki qui motive les utilisateurs à apprendre tous les jours en gamifiant leur expérience.",
+        "Addon innovant pour le logiciel Anki qui booste la motivation des utilisateurs en gamifiant leur expérience d'apprentissage quotidienne, favorisant ainsi une progression constante et durable.",
     },
     {
       title: "PygameUIKit",
       techStack: ["Python", "Pygame"],
       description:
-        "Un kit d'interface utilisateur pour Pygame afin d'aider les gens à créer rapidement de belles interfaces utilisateur.",
+        "Kit d'interface utilisateur puissant et intuitif pour Pygame, permettant aux développeurs de créer rapidement des interfaces graphiques attrayantes et fonctionnelles, optimisant ainsi le processus de développement.",
       link: {
         href: "https://github.com/Times0/PygameUIKit",
       },
@@ -133,7 +133,7 @@ export const RESUME_DATA = {
       title: "MultiChess",
       techStack: ["C++", "Python", "Pygame", "Sockets"],
       description:
-        "Un jeu d'échecs classique où on peut jouer en réseau ou contre une IA basée sur un réseau de neurones ou sur un minmax avec élagage alpha-bêta.",
+        "Jeu d'échecs offrant la possibilité de jouer en réseau ou contre des IA qui utilisent l'algorithme minmax alpha-beta OU un réseau de neurones artificiels. Pas très original",
       link: {
         label: "github.com",
         href: "https://github.com/Times0/MultiChess",
@@ -143,13 +143,13 @@ export const RESUME_DATA = {
       title: "Futuristic City Simulation",
       techStack: ["Python", "SeaBorn", "Pygame", "Data"],
       description:
-        "Mise en place de la simulation d'une ville futuriste complexe avec des voitures autonomes, des drones, des robots, etc. Génération de données tous les jours dans le but d'inférer la forme optimale de la ville",
+        "Simulation d'une ville futuriste complexe intégrant des voitures autonomes, des drones et des robots. Génération quotidienne de données et optimisation de la forme de la ville grâce à des algorithmes d'apprentissage automatique et d'analyse prédictive.",
     },
     {
       title: "Cilpink",
-      techStack: ["PyQt", "MySQL"],
+      techStack: ["PyQt", "MySQL", "GCP"],
       description:
-        "Une application de bureau pour aider les 20 membres de l'équipe de Cilcare à organiser leurs tâches, projets et congés. Développerment de tout le logiciel et mise en place d'un serveur MySQL sur Google Cloud PLatform.",
+        "Application de bureau sur mesure développée pour optimiser la gestion des tâches, des projets et des congés des 20 membres de l'équipe Cilcare. Déploiement réussi d'un serveur MySQL sur Google Cloud Platform pour une solution complète et évolutive.",
     },
   ],
 } as const;
